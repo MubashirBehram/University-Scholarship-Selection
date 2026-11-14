@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.ant.freeform</type>
+    <configuration>
+        <general-data xmlns="http://www.netbeans.org/ns/ant-freeform/1">
+            <name>ScholarshipSelectionPortal</name>
+            <properties>
+                <property name="project.dir">.</property>
+            </properties>
+            <folders>
+                <source-folder style="tree">
+                    <label>Java Sources</label>
+                    <location>src/main/java</location>
+                </source-folder>
+                <source-folder style="tree">
+                    <label>Web Pages</label>
+                    <location>src/main/webapp</location>
+                </source-folder>
+                <source-folder style="tree">
+                    <label>Resources</label>
+                    <location>src/main/resources</location>
+                </source-folder>
+            </folders>
+            <ide-actions>
+                <action name="build">
+                    <target>war</target>
+                </action>
+                <action name="clean">
+                    <target>clean</target>
+                </action>
+                <action name="rebuild">
+                    <target>clean</target>
+                    <target>war</target>
+                </action>
+                <action name="run">
+                    <target>war</target>
+                </action>
+            </ide-actions>
+            <export>
+                <type>folder</type>
+                <location>dist</location>
+                <build-target>war</build-target>
+                <clean-target>clean</clean-target>
+            </export>
+            <view>
+                <items>
+                    <source-folder style="tree">
+                        <label>Java Sources</label>
+                        <location>src/main/java</location>
+                    </source-folder>
+                    <source-folder style="tree">
+                        <label>Web Pages</label>
+                        <location>src/main/webapp</location>
+                    </source-folder>
+                    <source-folder style="tree">
+                        <label>Resources</label>
+                        <location>src/main/resources</location>
+                    </source-folder>
+                    <source-file>
+                        <location>build.xml</location>
+                    </source-file>
+                </items>
+                <context-menu>
+                    <ide-action name="build"/>
+                    <ide-action name="clean"/>
+                    <ide-action name="rebuild"/>
+                </context-menu>
+            </view>
+        </general-data>
+    </configuration>
+</project>

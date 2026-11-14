@@ -1,0 +1,16 @@
+{
+    "java.project.sourcePaths": [
+        "University-Scholarship-Selection/src/main/java"
+    ],
+    "java.project.referencedLibraries": [
+        "University-Scholarship-Selection/lib/**/*.jar"
+    ],
+    "java.project.outputPath": "University-Scholarship-Selection/build/classes",
+    "java.project.resourceFilters": [
+        "node_modules",
+        ".git",
+        "University-Scholarship-Selection/build",
+        "University-Scholarship-Selection/dist"
+    ],
+    "java.project.encoding": "UTF-8"
+}
